@@ -23,7 +23,7 @@ input bool nextToPrice = false; // Position near the price close (else to anchor
 input ENUM_BASE_CORNER pCorner = CORNER_LEFT_LOWER; // Corner position of the label
 input string fontFamily = "Arial"; // Font family of the label
 input bool clocktime = true; // Show clock time
-input int window = 0; // Window
+input float  window = 0; // Window
 
 datetime time0 = NULL;
 double close0 = NULL;
